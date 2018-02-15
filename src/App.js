@@ -6,9 +6,9 @@ class App extends Component {
     return (
       <div className="App">
       <nav className='navigation'>
-        <a href="/css/">about</a> |
-        <a href="/html/">work</a> |
-        <a href="/js/">contact</a> 
+        <a href="/about/">about</a> |
+        <a href="/work/">work</a> |
+        <a href="/contact/">contact</a> 
       </nav>
        <p className='name'>Joshua Pace</p>
       </div>
