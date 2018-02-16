@@ -21,3 +21,19 @@
 
 
 
+.hiddentext {
+  display: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.name:hover .hiddentext {
+  display:block;
+}
+.name:hover {
+  color: transparent;
+}
+
+
+
