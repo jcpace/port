@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <a href="/contact/">contact</a> 
       </nav>
        <p className='name'>Joshua Pace</p>
+       <Footer />
       </div>
     );
   }
