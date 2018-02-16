@@ -1,16 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.name {
-  color: white;
+.navigation a {
+  text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 75px;
-  margin: 145px 20px;
+  color: white;
+  font-kerning: inherit;
+  padding: 20px;
   
 }
 
-.name:hover {
+.navigation:hover {
   box-shadow:
                 1px 1px #EB533B,
                 2px 2px #EB533B,
@@ -18,6 +15,3 @@
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
 }
-
-
-

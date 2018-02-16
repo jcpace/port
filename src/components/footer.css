@@ -1,3 +1,7 @@
+.fa-github {
+  color: white;
+
+}
 .fa-instagram {
   color: white;
 }
@@ -20,13 +24,13 @@
 
 footer {
   display: inline;
-  padding: 2px;
+  height: auto;
 }
 
 a {
   text-decoration: none;
   color: white;
-  padding: 15px;
+  margin-left: 15px;
 }
 
 a[href^=mailto] {
@@ -37,10 +41,6 @@ a[href^=mailto]:hover {
   opacity: 0.7;
   color: white;
   text-decoration: none;
-}
-.btn-github {
-  color: white;
-
 }
 
 .material-icons {
