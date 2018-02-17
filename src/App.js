@@ -13,7 +13,8 @@ class App extends Component {
         </div>
         
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <div class="item" data-aos="zoom-in">5</div>
+        <div className="item" data-aos="zoom-in">Lorem ipsum dolor amet copper mug hashtag neutra fashion axe chicharrones DIY affogato. Sriracha four dollar toast gochujang, kale chips chartreuse umami direct trade.</div>
+  
         <Footer />
       </div>
     );
