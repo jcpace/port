@@ -11,6 +11,9 @@ class App extends Component {
         <div className='name'>Joshua Pace
           <div className="hiddentext"><p>I am a full stack web developer; I learn something new everyday. I hope you do too.</p></div>
         </div>
+        
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div class="item" data-aos="zoom-in">5</div>
         <Footer />
       </div>
     );
