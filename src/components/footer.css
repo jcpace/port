@@ -1,6 +1,5 @@
 .fa-github {
   color: white;
-
 }
 .fa-instagram {
   color: white;
@@ -19,7 +18,6 @@
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-
 }
 
 footer {
@@ -31,7 +29,6 @@ a {
   text-decoration: none;
   color: white;
   margin-left: 20px;
-
 }
 
 a[href^=mailto] {

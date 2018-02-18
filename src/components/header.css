@@ -8,11 +8,10 @@
   
 }
 
-.navigation:hover {
-  box-shadow:
-                1px 1px #EB533B,
-                2px 2px #EB533B,
-                3px 3px #EB533B;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
+a:hover {
+  
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+  
 }
