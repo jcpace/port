@@ -30,15 +30,10 @@
 
 .name:hover .hiddentext {
   display:block;
-  transition-timing-function: ease;
+  transition-timing-function: ease-in-out;
 }
 .name:hover {
   color: transparent;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item {
