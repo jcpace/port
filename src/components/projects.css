@@ -24,6 +24,7 @@
   margin: 3px;
   border-radius: 18px;
   font-size: 12px;
+  text-align: center;
 }
 
 .button {
@@ -33,4 +34,10 @@
   border-radius: 4px;
   padding: .3rem .6rem;
   font-size: 14px;
+}
+
+.card-links {
+
+  margin: 7px auto;
+
 }
