@@ -3,12 +3,12 @@ import './footer.css';
 
 const Footer = () => (
   <footer className="social-footer">
-  <a name='contact'>
+  <div id='contact'>
     <a href="mailto:joshpace@gmail.com" className="fa fa-envelope" />
     <a href="https://www.instagram.com/_.jpace/" className="fa fa-instagram" />
     <a href="https://www.github.com/jcpace" className="fa fa-github" />
     <a href="https://www.linkedin.com/in/joshuacpace/" className="fa fa-linkedin" />
-  </a>
+  </div>
   </footer>
 );
 

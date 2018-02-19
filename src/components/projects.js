@@ -1,8 +1,9 @@
 import React from 'react';
+import './projects.css';
 
 const Projects = () => (
-  <div>
-    <a name='projects'>work</a>
+  <div id='projects'>
+    <p>work</p>
     <i className="fa fa-react">react</i>
   </div>
   );
