@@ -26,6 +26,8 @@ class App extends Component {
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
         <Footer />
+        {/* <div class="fancy-cursor" style="transform: translate(-50%, -50%) translate(562px, 600px);"></div>
+        <div class="fancy-cursor__orb" style="transform: translate(-50%, -50%) translate(562px, 600px);"></div> */}
       </div>
     );
   }
