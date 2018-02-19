@@ -1,0 +1,18 @@
+.fa-react {
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}

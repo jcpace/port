@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 
 const Footer = () => (
-  <footer className="social-footer">
+  <footer className="social-footer" name='contact'>
     <a href="mailto:joshpace@gmail.com" className="fa fa-envelope" />
     <a href="https://www.instagram.com/_.jpace/" className="fa fa-instagram" />
     <a href="https://www.github.com/jcpace" className="fa fa-github" />

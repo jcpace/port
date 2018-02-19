@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/footer';
 import Projects from './components/projects';
 import Header from './components/header';
+import About from './components/about';
 
 
 class App extends Component {
@@ -16,8 +17,9 @@ class App extends Component {
         
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <div className="item" data-aos="zoom-in">Lorem ipsum dolor amet copper mug hashtag neutra fashion axe chicharrones DIY affogato. Sriracha four dollar toast gochujang, kale chips chartreuse umami direct trade.</div>
-        <Footer />
+  <About />
   <Projects />
+        <Footer />
       </div>
     );
   }
