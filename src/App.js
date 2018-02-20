@@ -4,6 +4,8 @@ import Footer from './components/footer';
 import Projects from './components/projects';
 import Header from './components/header';
 import About from './components/about';
+import ProjectCard from './components/card';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
 class App extends Component {
@@ -25,6 +27,9 @@ class App extends Component {
   <Projects />
   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
+        <MuiThemeProvider>
+        <ProjectCard />
+        </MuiThemeProvider>
         <Footer />
         {/* <div class="fancy-cursor" style="transform: translate(-50%, -50%) translate(562px, 600px);"></div>
         <div class="fancy-cursor__orb" style="transform: translate(-50%, -50%) translate(562px, 600px);"></div> */}
