@@ -2,6 +2,11 @@ body {
   color: white;
 }
 
+.navigation {
+  position: fixed;
+  margin: auto;
+}
+
 .navigation a {
   text-decoration: none;
   font-size: 25px;
@@ -10,8 +15,7 @@ body {
   font-kerning: inherit;
   padding: 20px;
   text-decoration-color: white;
-  
-}
+  }
 
 a:hover {
   
