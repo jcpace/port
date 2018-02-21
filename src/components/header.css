@@ -24,9 +24,8 @@ body {
 a {
   text-decoration: none;
 }
-a:hover:after {
+a:after {
   text-decoration: none;
-  color: white;
 }
 ul {
   list-style: none;
@@ -77,3 +76,75 @@ li {
 }
 
 
+
+
+
+
+
+
+
+
+/* .navigation {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 600px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:after {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header-span {
+  position: relative;
+  display: block;
+}
+
+
+.header-span:before, .header-span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+.header-span:before {
+  left: -2.5px;
+}
+.header-span:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.header-span:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.header-span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+ */
