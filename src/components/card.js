@@ -9,6 +9,7 @@ import {
 } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import './card.css';
+const image = require('../assets/mobile.jpg')
 
 const ProjectCard = () => (
   <Card className="card">
@@ -20,7 +21,7 @@ const ProjectCard = () => (
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src="../assets/mobile.jpg" alt="" />
+      <img src={image} alt="" />
     </CardMedia>
     <CardTitle title="Card title" subtitle="Card subtitle" />
     <CardText>
