@@ -8,9 +8,11 @@ import {
   CardText,
 } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
+import '/Users/JP/code/port/src/assets/mobile.jpg';
+import './card.css';
 
 const ProjectCard = () => (
-  <Card>
+  <Card className="card">
     <CardHeader
       title="URL Avatar"
       subtitle="Subtitle"
@@ -19,7 +21,7 @@ const ProjectCard = () => (
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src="../assets/mobile.jpg" alt="" />
+      <img src="/Users/JP/code/port/src/assets/mobile.jpg" alt="" />
     </CardMedia>
     <CardTitle title="Card title" subtitle="Card subtitle" />
     <CardText>
