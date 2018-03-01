@@ -15,7 +15,7 @@ const ProjectCard = () => (
   <Card className="card">
     <CardHeader
       title="URL Avatar"
-      subtitle="Connecting users with iondependent artists in their area"
+      subtitle="Connecting users with independent artists in their area"
       avatar="images/jsa-128.jpg"
     />
     <CardMedia
