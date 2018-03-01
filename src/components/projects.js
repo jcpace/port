@@ -4,7 +4,7 @@ import './projects.css';
 const Projects = () => (
   <div id="projects">
     <div className="wrapper">
-        <div className="card">
+      <div className="card">
         <div className="card-header">
           <h2 className="heading-2">Polished</h2>
           <p className="subtitle">
@@ -21,22 +21,14 @@ const Projects = () => (
           <span className="tech">Sequelize</span>
           <span className="tech">Node.js</span>
         </div>
-      <div className="card-links">
-          <a
-            href="http://www.brianadacoscos.com/"
-            target="_blank"
-            className="button"
-          >
+        <div className="card-links">
+          <a href="http://polished.tk/" className="button">
             Visit Live
           </a>
-          <a
-            href="https://github.com/jcpace/polished"
-            target="_blank"
-            className="button"
-          >
+          <a href="https://github.com/jcpace/polished" className="button">
             GitHub Repo
           </a>
-    </div>
+        </div>
       </div>
     </div>
   </div>
